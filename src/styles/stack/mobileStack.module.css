@@ -1,0 +1,47 @@
+.stackContainer {
+    background-color: #3C4A72;
+    padding: 3% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper {
+    background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+    width: fit-content;
+    padding: 2px;
+    position: relative;
+}
+.stackBack {
+    background-color: #3C4A72;
+}
+.stackTitle{
+    background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.stacks {
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+.stackImage {
+    width: 5vw;
+    height: 5vw;
+}
+.scrollHidden::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* For IE, Edge and Firefox */
+  .scrollbarHidden {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
