@@ -1,0 +1,82 @@
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #00A4FF;
+    position: relative;
+    overflow: hidden;
+}
+.leftSide {
+    /* background-color: #0F1525; */
+    width: 40%;
+    /* height: 98vh; */
+    border-top: 99vh solid #0F1525;
+    border-right: 10vw solid transparent;
+}
+.introduction {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    left: 5%;
+}
+.salute{
+    font-size: 2vw;
+}
+.work {
+    font-size: 2vw;
+}
+.name {
+    background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 4vw;
+    font-weight: 500;
+    width: fit-content;
+}
+.stack {
+    font-size: 1.1vw;
+    margin-top: 1%;
+}
+.wrapper {
+    background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+    width: fit-content;
+    padding: 2px;
+    position: relative;
+    margin-top: 10%;
+}
+.contactBtn {
+    border: none;
+    background-color: #0F1525;
+}
+.contactBtnText {
+    background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+    display: block;
+    background-clip: text;
+    color: transparent;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    -webkit-background-clip: text;
+}
+.imageContainer {
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    right: 10%;
+    bottom: 0;
+    display: hidden;
+}
+.image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.aboutSection {
+    width: 100%;
+    overflow: hidden;
+    background-color: #0F1525;
+}
