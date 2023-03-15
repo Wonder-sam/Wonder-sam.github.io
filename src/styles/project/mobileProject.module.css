@@ -1,0 +1,25 @@
+.projectContainer {
+    padding: 5% 10%;
+}
+.sectionHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sectionTitle {
+    font-size: 3vw;
+    font-weight: 600;
+    background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    width: fit-content;
+}
+
+.underline {
+    margin-top: 1%;
+    margin-bottom: 3%;
+    width: 8%;
+    height: 2px;
+    background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+}
