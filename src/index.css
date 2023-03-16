@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "ArialBold";
+  src: local("ArialBold"),
+   url("./assets/ARLRDBD.ttf") format("truetype");
+  font-weight: 400;
+}
+
 body {
   margin: 0;
   width: 100vw;

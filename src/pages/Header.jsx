@@ -1,8 +1,16 @@
 import React from 'react'
 import { NavLink, Outlet } from 'react-router-dom'
+import WebFont from 'webfontloader';
 import mobileClasses from "./../styles/header/mobileHeader.module.css"
 
 export default function Header () {
+    React.useEffect(() => {
+        WebFont.load({
+          google: {
+            families: ['Droid Sans', 'Chilanka', 'Montserrat']
+          }
+        });
+       }, []);
     return (
         <div className={mobileClasses.container}>
             <div className={[mobileClasses.header]}>

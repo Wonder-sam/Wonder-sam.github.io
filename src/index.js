@@ -4,8 +4,11 @@ import './index.css';
 import { RouterProvider } from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
 import { Routes } from './routes';
+import './assets/ARLRDBD.ttf';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
     <RouterProvider router={Routes} />
