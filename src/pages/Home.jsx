@@ -1,6 +1,6 @@
 import React from 'react'
 import mobileClasses from './../styles/home/mobileHome.module.css'
-import me from '../assets/sam.png'
+import me from '../assets/sam1.png'
 import AboutMe from '../components/AboutMe'
 import Stack from '../components/Stack'
 import Projects from '../components/Projects'
