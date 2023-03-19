@@ -4,6 +4,7 @@ import me from '../assets/sam1.png'
 import AboutMe from '../components/AboutMe'
 import Stack from '../components/Stack'
 import Projects from '../components/Projects'
+import ContactMe from '../components/Contact'
 
 export default function Home (){
     return(
@@ -31,6 +32,7 @@ export default function Home (){
             </div>
             <Stack />
             <Projects />
+            <ContactMe />
         </>
     )
 }
