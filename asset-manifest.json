@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.0f92279c.css",
-    "main.js": "/static/js/main.f3fb25ef.js",
+    "main.css": "/static/css/main.68d83a8e.css",
+    "main.js": "/static/js/main.fc5be58a.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/sam1.png": "/static/media/sam1.a2a682fefb51395fdcb7.png",
     "static/media/wonnHA.jpg": "/static/media/wonnHA.6cca5b16d8d6b5dad78f.jpg",
+    "static/media/pro2.png": "/static/media/pro2.87589bbdbf75656fa2ee.png",
+    "static/media/pro1.png": "/static/media/pro1.41cd825091733d745d3f.png",
+    "static/media/flutter.png": "/static/media/flutter.294a953425109a8f1aad.png",
     "static/media/ARLRDBD.ttf": "/static/media/ARLRDBD.92db065b25b7acb38124.ttf",
     "static/media/react.svg": "/static/media/react.85c41c3f0399a4e70d6001e00d00ac77.svg",
     "static/media/native.svg": "/static/media/native.0c530bca7a80724846d99fd3178c8e88.svg",
     "static/media/git.svg": "/static/media/git.e835f109aa66dba09f8fed4dc8cfb0cc.svg",
+    "static/media/link.svg": "/static/media/link.8ed3860b5c73fcccb6d4fbe45cd90458.svg",
+    "static/media/github.svg": "/static/media/github.6efef938e2ae279ffcd6bc710bda77bb.svg",
     "static/media/js.svg": "/static/media/js.5b7b14962da9e952f91045fefe24d0ae.svg",
     "static/media/mongo.svg": "/static/media/mongo.536c4f90f3e6343447021ad62a120433.svg",
     "index.html": "/index.html",
-    "main.0f92279c.css.map": "/static/css/main.0f92279c.css.map",
-    "main.f3fb25ef.js.map": "/static/js/main.f3fb25ef.js.map",
+    "main.68d83a8e.css.map": "/static/css/main.68d83a8e.css.map",
+    "main.fc5be58a.js.map": "/static/js/main.fc5be58a.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f92279c.css",
-    "static/js/main.f3fb25ef.js"
+    "static/css/main.68d83a8e.css",
+    "static/js/main.fc5be58a.js"
   ]
 }
