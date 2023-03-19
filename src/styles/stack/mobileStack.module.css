@@ -19,17 +19,18 @@
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding: 10px 35px 10px 35px;
+    font-size: 12px;
 }
 .stacks {
-    display: flex;
-    overflow-x: scroll;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     width: 100%;
+    row-gap: 30px;
+    column-gap: 10px;
     justify-content: space-evenly;
-    margin-top: 3%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 .stackImage {
     width: 5vw;
