@@ -1,18 +1,23 @@
 .main{
-    height: 52.5vw;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-end;
     background-color: #00A4FF;
     position: relative;
     overflow: hidden;
 }
 .leftSide {
-    /* background-color: #0F1525; */
-    width: 40%;
-    /* height: 98vh; */
-    border-top: 99vh solid #0F1525;
-    border-right: 10vw solid transparent;
+    background-color: rgba(0,0,0,.7); 
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-top: none;
+    border-right: none;
 }
 .introduction {
     position: absolute;
@@ -20,6 +25,7 @@
     transform: translateY(-50%);
     color: white;
     left: 5%;
+    z-index: 1;
 }
 .salute{
     font-size: 2vw;
@@ -70,12 +76,10 @@
     -webkit-background-clip: text;
 }
 .imageContainer {
-    position: absolute;
-    width: 40%;
-    height: 80%;
-    right: 10%;
-    bottom: 0;
-    display: hidden;
+    margin-top: 55px;
+    /* position: static; */
+    width: 70%;
+    aspect-ratio: 1/1;
 }
 .image{
     object-fit: cover;

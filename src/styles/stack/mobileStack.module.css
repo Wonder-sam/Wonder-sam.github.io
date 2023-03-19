@@ -1,5 +1,6 @@
 .stackContainer {
     background-color: #3C4A72;
+    position: relative;
     padding: 3% 10%;
     display: flex;
     flex-direction: column;
