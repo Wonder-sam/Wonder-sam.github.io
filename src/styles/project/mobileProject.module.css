@@ -1,5 +1,8 @@
 .projectContainer {
     padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .sectionHeader {
     display: flex;
@@ -7,8 +10,8 @@
     align-items: center;
 }
 .sectionTitle {
-    font-size: 3vw;
-    font-weight: 600;
+    font-size: 32px;
+    font-weight: 700;
     background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -17,9 +20,97 @@
 }
 
 .underline {
-    margin-top: 1%;
+    margin-top: 5%;
     margin-bottom: 3%;
-    width: 8%;
+    width: 75%;
     height: 2px;
     background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+}
+.projects{
+    width: 100%;
+    align-self: center;
+}
+.project {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    padding-bottom: 15%;
+    align-items: center;
+    border-bottom: thin solid white;
+}
+.hiddenDetail {
+    display: none;
+}
+.projectImageContainer {
+    width: 100%;
+}
+.projectImage {
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1.15;
+    border-radius: 5%;
+}
+.projectDetails {
+    width: 100%;
+    line-height: 200%;
+}
+.projectTitle {
+    background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    width: fit-content;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+.projectAbout {
+    color: white;
+    width: 90%;
+    font-family: 'Work Sans';
+    font-weight: 300;
+    font-size: 18px;
+}
+.projectStack {
+    color: #D2D2D2;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+.links {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    display: flex;
+    width: fit-content;
+    justify-content: space-between;
+}
+.wrapper {
+    background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+    width: fit-content;
+    padding: 2px;
+    position: relative;
+    border-radius: 30px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+.viewWork {
+    background-color: #0F1525;
+    padding: 0px 20px 0px 20px;
+    border-radius: 30px;
+}
+.viewWorkWhite {
+    padding: 0px 20px 0px 20px;
+    border-radius: 30px;
+    color: white
+}
+.viewText{
+    background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 400;
 }
