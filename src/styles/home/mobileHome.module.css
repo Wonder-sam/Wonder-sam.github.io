@@ -1,5 +1,5 @@
 .main{
-    height: 100vh;
+    height: 52.5vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,7 +54,7 @@
     width: fit-content;
     padding: 2px;
     position: relative;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .contactBtn {
     border: none;
@@ -65,10 +65,8 @@
     display: block;
     background-clip: text;
     color: transparent;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding: 10px 25px 10px 25px;
+    font-size: 12px;
     -webkit-background-clip: text;
 }
 .imageContainer {
