@@ -1,0 +1,63 @@
+@media(min-width: 1024px){
+    .aboutContainer {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        padding: 8%;
+        align-items: center;
+        overflow: hidden;
+        flex-shrink: 0;
+        flex-grow: 0;
+        box-sizing: border-box;
+    }
+    .aboutMe {
+        width: 50%;
+    }
+    .aboutTitle {
+        font-size: 3vw;
+        font-weight: 700;
+        background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        width: fit-content;
+    }
+    .about {
+        color: rgba(242, 242, 242, 0.55);
+        font-size: 1.5vw;
+    }
+    .aboutEmp {
+        color: white;
+    }
+    .underline {
+        margin-top: 2%;
+        margin-bottom: 5%;
+        width: 20%;
+        height: 2px;
+        background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+    }
+    .aboutImages {
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .imageDiv {
+        width: 18vw;
+        height: 18vw;
+        background-color: white;
+        overflow: hidden;
+        margin-right: 3%;
+        margin-bottom: 5%;
+        border-Radius: 15px;
+    }
+    .imageDivs {
+        display: flex;
+        flex-direction: column;
+    }
+    .image {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
