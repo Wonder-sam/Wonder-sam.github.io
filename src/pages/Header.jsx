@@ -7,7 +7,7 @@ export default function Header () {
     React.useEffect(() => {
         WebFont.load({
           google: {
-            families: ['Droid Sans', 'Chilanka', 'Montserrat']
+            families: ['Droid Sans', 'Chilanka', 'Montserrat', 'Work Sans']
           }
         });
        }, []);
